@@ -1,0 +1,125 @@
+/*---------------------fonts------------------------*/
+
+@font-face{
+	font-family: 'quicksand';
+	src: url(./fonts/quicksand/Quicksand-Regular.otf),
+		 url(./fonts/quicksand/Quicksand-Bold.otf); 
+
+	font-family: 'dekar';
+	src: url(./fonts/dekar/Dekar.otf),
+		 url(./fonts/dekar/Dekar Light.otf);
+
+	font-family: 'kelson';
+	src: url(./fonts/kelson/Kelson sans Bold.otf),
+		 url(./fonts/kelson/Kelson sans Light.otf),
+		 url(./fonts/kelson/Kelson sans Regular.otf);
+
+	font-family: 'track';
+	src: url(./fonts/track/TTF files/Track.ttf),
+		 url(./fonts/track/TTF files/Track Italic.ttf);
+}
+
+body{
+	font-family: 'dekar', Arial, sans-serif;
+}
+body p{
+	font-size: 15px;
+}
+/*---------------------navbar------------------------*/
+.navbar-custom{
+	background: white;
+}
+
+#logo{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+/*#myNavbar button{
+	padding: 0 10px 0 10px;
+}*/
+/*---------------------header------------------------*/
+.intro-header{
+	/*pour ne pas etre caché par la barre de navigation*/
+	margin-top: 50px;
+
+	padding: 100px 0 100px;
+
+	background: no-repeat center center
+	-webkit-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	height: 610px;
+}
+.intro-header h1, .intro-header h2{
+	color: white;
+	text-align: center;
+}
+.intro-header h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.imp{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.intro-header label{
+	color: white;
+}
+.intro-header form{
+	padding-top: 50px;
+}
+.btn-large{
+    padding: 18px 28px;
+    font-size: 22px;
+    font-family: 'dekar';
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    color: white;
+    background-color:#337ab7;
+}
+
+/*---------------------Concept section------------------------*/
+#concept{
+	height: 610px;
+}
+#concept p{
+	text-align: justify;
+}
+#concept h1{
+	color: #f1c40f;
+	text-align: center;
+	margin-top: 60px;
+}
+.etapes{
+	margin-top: 40px;
+}
+/*---------------------Team section------------------------*/
+#team{
+	margin-top: 50px;
+	background-color: #f1c40f;
+	height: 610px;
+}
+#team h1{
+	text-align: center
+}
+#team .team_names{
+	font-size: 30px;
+}
+#team p{
+	text-align: justify;
+}
+#team .section_title{
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+}
+#team h2{
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
