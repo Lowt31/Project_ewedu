@@ -1,0 +1,65 @@
+/*---------------------navbar------------------------*/
+.navbar-custom{
+	background: white;
+}
+
+/*---------------------header------------------------*/
+.intro-header{
+	margin-top: 50px;
+	padding: 150px 0 ;
+	background: no-repeat center center
+	-webkit-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+.intro-header h1, .intro-header p{
+	color: white;
+}
+.intro-header h1{
+
+	font-size: 50px;
+	font-weight: bold;
+}
+.intro-header p{
+	font-weight: bold;
+}
+
+.intro-header label{
+	color: white;
+}
+.intro-header form{
+	padding-top: 70px;
+}
+
+/*---------------------Concept section------------------------*/
+#concept p{
+	text-align: justify;
+}
+#concept h1{
+	color: orange;
+}
+/*---------------------Team section------------------------*/
+#team{
+	margin-top: 50px;
+	background-color: orange;
+	min-height: 400px;
+}
+#team h1{
+	text-align: center
+}
+#team .team_names{
+	font-size: 30px;
+}
+#team p{
+	text-align: justify;
+}
+#team .section_title{
+	text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+}
+#team h2{
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
